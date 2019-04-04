@@ -12,5 +12,8 @@ class Mailtest extends Controller
     public function Send(){
         $mailClass = new Milestone1();
         Mail::to('owendewa@student.arteveldehs.be')->send($mailClass); 
+        Mail::to('frederick.roegiers@arteveldehs.be')->send($mailClass); 
+
+        return redirect('/');
     }
 }

@@ -1405,17 +1405,17 @@ body.outlook p {
                         </tr>
                       </tbody>
                     </table>
-                    <table class="row">
+                    <table class="row"> 
                       <tbody>
                         <tr>
                           <th class="small-12 large-12 columns first last">
                             <table>
                               <tr>
                                 <th>
-                                  <h1>Hi, Susan Calvin</h1>
-                                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iste, amet consequatur a veniam.</p>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut optio nulla et, fugiat. Maiores accusantium nostrum asperiores provident, quam modi ex inventore dolores id aspernatur architecto odio minima perferendis, explicabo.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quos quasi itaque beatae natus fugit provident delectus, magnam laudantium odio corrupti sit quam. Optio aut ut repudiandae velit distinctio asperiores?</p>
+                                  <h1>Webapp Laravel</h1>
+                                  <p class="lead">Pro·gram·mer (n) An organism that turns caffeine into code</p>
+                                  <p> GitHub Invite link: https://github.com/gdm-1718-owendewa/Werkstuk_laravel/invitations</p>
+                                  <p> GitHub Repo link: https://github.com/gdm-1718-owendewa/Werkstuk_laravel</p>
                                 </th>
                                 <th class="expander"></th>
                               </tr>
@@ -1424,19 +1424,7 @@ body.outlook p {
                         </tr>
                       </tbody>
                     </table>
-                    <table class="wrapper secondary" align="center">
-                      <tr>
-                        <td class="wrapper-inner">
-                          <table class="spacer">
-                            <tbody>
-                              <tr>
-                                <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
+                    <img src="{{ $message->embed(public_path('images/databaseschema.jpg')) }}" style="width:600px; height:400px;">
                   </td>
                 </tr>
               </tbody>
